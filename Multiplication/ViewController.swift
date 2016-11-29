@@ -39,7 +39,7 @@ class ViewController: UIViewController {
     
     func multiplyFunction() {
         sum = total * number
-        label.text = "\(total) * \(number) = \(total)"
+        label.text = "\(total) * \(number) = \(sum)"
         total = sum
     }
     
